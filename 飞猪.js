@@ -5,9 +5,7 @@ waitForPackage("com.taobao.trip")
 sleep(5000)
 click(965,2285)
 sleep(3000)
-click(931,637)
-sleep(3000)
-click(873,360)
+text("飞猪里程").findOne().parent().click()
 sleep(2000)
 
 
@@ -16,7 +14,7 @@ click(temp.centerX(), temp.centerY())
 sleep(2000)
 
 var i = 0
-while(i<2){
+while(i<5){
     var temp = text('+2里程').findOne().bounds()
     click(temp.centerX(), temp.centerY())
     sleep(6000)
@@ -38,9 +36,9 @@ var temp = text('+2里程').findOne().bounds()
 click(temp.centerX(), temp.centerY())
 sleep(2000)
 
-var temp = descContains('直播中').findOne().bounds()
-click(temp.centerX(), temp.centerY())
-sleep(11000)
+// var temp = descContains('直播中').findOne().bounds()
+// click(temp.centerX(), temp.centerY())
+// sleep(11000)
 
 var temp = text('立即领奖').findOne().bounds()
 click(temp.centerX(), temp.centerY())

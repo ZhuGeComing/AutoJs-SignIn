@@ -8,19 +8,20 @@ requestScreenCapture();
 // sleep(2000)
 // textStartsWith("获取").findOne(5000).click()
     
-while(true){
-    if(images.detectsColor(captureScreen(), "#ffcc80", 121, 102, 30)){
-        sleep(400)
-        click(922, 121)
-        sleep(400)
-        break
-    }
-    else{
-    }
-    sleep(1000)
-}
+// var temp = images.read("/sdcard/fooViewSave/mms.jpg")
+// var p = findImage(captureScreen(), temp)
+// while(true){
+//     if(p){
+//         sleep(400)
+//         click(95, 312)
+//         sleep(300)
+//         break
+//     }
+//     sleep(500)
+//     var p = findImage(captureScreen(), temp)
+// }
+
 
 textStartsWith("请输入").setText(getClip())
 
-textStartsWith("确定").click()
-
+// textStartsWith("确定").click()

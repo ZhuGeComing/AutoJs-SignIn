@@ -1,7 +1,7 @@
-home()
+
 launchApp("淘票票")
-waitForPackage("com.taobao.movie.android")
-sleep(7000)
+// waitForPackage("com.taobao.movie.android")
+// sleep(7000)
 // click(930,1853)
 // sleep(2000)
 // click(811,588)

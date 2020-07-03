@@ -6,6 +6,8 @@ text("我的").findOne(2000).parent().click()
 sleep(4000)
 click(551,470)
 sleep(5000)
+click(878,978)
+sleep(5000)
 click(165,1057)
 var i = 0
 while(i<6){

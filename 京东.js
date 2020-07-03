@@ -1,11 +1,19 @@
-// home()
+
 launchApp("京东")
 waitForPackage("com.jingdong.app.mall")
 sleep(8000)
-click(967,2309)
-sleep(8000)
-text("京豆").findOne(2000).parent().parent().click()
-sleep(8000)
+text("领京豆").findOne().parent().click()
+sleep(5000)
+
+
+
+click(582,431)
+sleep(5000)                                             
+back()
+sleep(2000)
+click(717, 633)
+sleep(2000)
+
 click(522,845)
 sleep(4000)
 click(538,1100)
@@ -19,25 +27,9 @@ sleep(2000)
 back()
 sleep(2000)
 
-descStartsWith("去签到").findOne(2000).parent().click()
-sleep(5000)                                             
-click(582,409)
-sleep(2000)
-back()
-sleep(2000)
-back()
-sleep(2000)
-
-click(886,828)
-sleep(4000)
-click(896,640)
-sleep(2000)
-back()
-sleep(2000)
-
-back()
-sleep(2000)
 
 
 
-home()
+
+
+

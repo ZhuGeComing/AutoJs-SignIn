@@ -1,7 +1,6 @@
 requestScreenCapture()
-home()
 launchApp("虾米音乐")
-waitForPackage("fm.xiami.main")
+
 sleep(7000)
 click(977,2285)
 text("养虾米").findOne().parent().parent().click()
@@ -33,8 +32,7 @@ click(587, 1295)
 sleep(2000)
 click(587, 1495)
 sleep(2000)
-// click(579, 1431)
-// sleep(2000)
+
 
 
 id("player_btn_share_top").findOne(2000).click()
@@ -43,7 +41,7 @@ text("发布").findOne(2000).click()
 
 
 id("player_btn_comment").findOne(2000).click()
-id("comment_view").click()
+id("player_comment_edit_container").click()
 sleep(2000)
 setText("666")
 text("发送").findOne(2000).click()

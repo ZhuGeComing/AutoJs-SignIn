@@ -1,21 +1,17 @@
-home()
+
 launchApp("饿了么")
 sleep(7000)
-// click(312, 1547)
-// sleep(5000)
-click(942, 2283)
-sleep(8000)
-click(265, 528)
+
+
+desc("饿了么").findOne(4000).parent().click()
 sleep(2000)
-click(580, 1180)
+
+
+
+desc("我的").findOne(4000).parent().click()
+sleep(1000)
+
+textContains("10元红包").findOne(4000).parent().click()
 sleep(2000)
-click(580, 1280)
-sleep(4000)
-click(580, 1537)
-sleep(2000)
-click(273, 2154)
-sleep(2000)
-back()
-sleep(2000)
-click(550, 1280)
-sleep(4000)
+
+
